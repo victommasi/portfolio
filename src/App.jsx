@@ -2,7 +2,6 @@
 import "./App.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-// import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 
 import reactLogo from './assets/react.png';
 import tsLogo from './assets/ts.png';
@@ -36,7 +35,7 @@ const App = () => {
       <section className="h-screen w-auto text-white flex p-4 pt-10 mx-auto my-auto justify-around items-center flex-col bg-amber-50">
         <div className="grid grid-cols-4 gap-4">
           <Card title="Survey Component Example" subtitle="React + TS + Tailwind + Hook Form" link="https://main--melodic-churros-d16f99.netlify.app/" source={netlify} />
-          <Card title="React Tailwind Components" subtitle="React + Tailwind" source={codesandbox} link="https://codesandbox.io/p/github/victommasi/react-tailwind-examples/main?preventWorkspaceRedirect=true"/>
+          <Card title="5 React Tailwind Components" subtitle="React + Tailwind" source={netlify} link="https://64c28f4e6c41ee06f9464606--dynamic-taiyaki-26ef6e.netlify.app/"/>
           <Card title="Zipcode Input Autocomplete" subtitle="React + Styled Components" source={codesandbox} link="https://codesandbox.io/s/github/victommasi/ZipCodeInput-React-Typescript"/>
           <Card title="Week Calendar" subtitle="React + Styled Components" source={codesandbox} link="https://codesandbox.io/s/github/victommasi/Calendar-React-Typescript"/>
         </div>
